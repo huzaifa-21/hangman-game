@@ -48,6 +48,7 @@ letters.forEach(function (letter) {
   span.innerHTML = letter.toUpperCase();
   lettersContainer.appendChild(span);
 });
+
 var words = {
   programming: [
     "Java",
